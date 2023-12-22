@@ -1,3 +1,10 @@
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var audio = document.getElementById('myAudio');
+    audio.play();
+});
+
 document.addEventListener('mousemove', e => {
     Object.assign(document.documentElement, {
         style: `
