@@ -2,7 +2,9 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     var audio = document.getElementById('myAudio');
-    audio.play();
+    document.addEventListener('click', function () {
+        audio.play();
+    });
 });
 
 document.addEventListener('mousemove', e => {
